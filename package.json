@@ -1,0 +1,35 @@
+{
+  "name": "coffeelint-teamcity",
+  "version": "0.1.0",
+  "description": "TeamCity reporter for CoffeeLint",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "coffeelint index.coffee teamcity.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aranasoft/coffeelint-teamcity"
+  },
+  "keywords": [
+    "teamcity",
+    "coffeelint",
+    "reporter",
+    "validate",
+    "lint",
+    "teamcity"
+  ],
+  "author": "Arana Software <info@aranasoft.com> (http://www.aranasoft.com)",
+  "contibutors": [
+    "Dennis Burton <dburton@aranasoft.com>",
+    "Jay Harris <jay@aranasoft.com>"
+  ],
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/aranasoft/coffeelint-teamcity/issues"
+  },
+  "homepage": "https://github.com/aranasoft/coffeelint-teamcity",
+  "devDependencies": {
+    "coffee-script": "^1.9.1",
+    "coffeelint": "^1.9.3"
+  }
+}
