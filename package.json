@@ -1,10 +1,10 @@
 {
   "name": "coffeelint-teamcity",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "TeamCity reporter for CoffeeLint",
   "main": "index.coffee",
   "scripts": {
-    "test": "coffeelint index.coffee teamcity.coffee"
+    "test": "mocha --compilers coffee:coffee-script/register ./test.coffee"
   },
   "repository": {
     "type": "git",
@@ -30,6 +30,8 @@
   "homepage": "https://github.com/aranasoft/coffeelint-teamcity",
   "devDependencies": {
     "coffee-script": "^1.9.1",
-    "coffeelint": "^1.9.3"
+    "coffeelint": "^1.9.3",
+    "mocha": "^2.2.1",
+    "should": "^5.2.0"
   }
 }
