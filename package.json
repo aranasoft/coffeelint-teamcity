@@ -1,6 +1,6 @@
 {
   "name": "coffeelint-teamcity",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "TeamCity reporter for CoffeeLint",
   "main": "index.coffee",
   "scripts": {
@@ -15,8 +15,7 @@
     "coffeelint",
     "reporter",
     "validate",
-    "lint",
-    "teamcity"
+    "lint"
   ],
   "author": "Arana Software <info@aranasoft.com> (http://www.aranasoft.com)",
   "contibutors": [
