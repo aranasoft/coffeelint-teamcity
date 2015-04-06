@@ -6,7 +6,7 @@ format for automatic consumption on TeamCity's Test tab.
 ## Install
 
 ```sh
-$ npm install --save-dev coffeelint-stylish
+$ npm install --save-dev coffeelint-teamcity
 ```
 ## Usage
 
