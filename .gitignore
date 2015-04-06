@@ -1,7 +1,9 @@
 # Created by https://www.gitignore.io
 
 ### Custom ###
+lib/
 *.js
+*.tgz
 
 
 ### Windows ###

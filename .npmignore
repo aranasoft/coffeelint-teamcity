@@ -1,0 +1,7 @@
+test/
+.git*
+*.tgz
+
+.editorconfig
+coffeelint.json
+

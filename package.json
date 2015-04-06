@@ -1,10 +1,13 @@
 {
   "name": "coffeelint-teamcity",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "TeamCity reporter for CoffeeLint",
-  "main": "index.coffee",
+  "main": "lib/reporter.js",
   "scripts": {
-    "test": "mocha --compilers coffee:coffee-script/register"
+    "compile": "./node_modules/.bin/coffee -o ./lib ./src",
+    "pretest": "npm run compile",
+    "test": "./node_modules/.bin/coffeelint ./src && mocha --compilers coffee:coffee-script/register",
+    "prepublish": "npm run compile"
   },
   "repository": {
     "type": "git",
@@ -29,8 +32,8 @@
   "homepage": "https://github.com/aranasoft/coffeelint-teamcity",
   "devDependencies": {
     "coffee-script": "^1.9.1",
-    "coffeelint": "^1.9.3",
-    "mocha": "^2.2.1",
-    "should": "^5.2.0"
+    "coffeelint": "^1.4",
+    "mocha": "^2",
+    "should": "^5"
   }
 }

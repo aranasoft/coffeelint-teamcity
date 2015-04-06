@@ -12,8 +12,10 @@ $ npm install --save-dev coffeelint-teamcity
 
 ### CoffeeLint CLI
 
+> Requires `coffeelint@^1.4`
+
 ```
-coffeelint --reporter node_modules/coffeelint-teamcity/teamcity.coffee file.coffee
+coffeelint --reporter node_modules/coffeelint-teamcity/lib/reporter.js file.coffee
 ```
 
 ## License
