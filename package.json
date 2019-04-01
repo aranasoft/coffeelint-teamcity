@@ -1,6 +1,6 @@
 {
   "name": "coffeelint-teamcity",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "TeamCity reporter for CoffeeLint",
   "engines": {
     "node": ">=0.10.0"
