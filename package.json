@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "TeamCity reporter for CoffeeLint",
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=8"
   },
   "files": [
     "index.js"
   ],
-	"scripts": {
-		"test": "xo && mocha",
+  "scripts": {
+    "test": "xo && mocha",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
   },
   "repository": {
@@ -43,6 +43,6 @@
     "xo": "^0.24.0"
   },
   "xo": {
-		"space": true
-	}
+    "space": true
+  }
 }
